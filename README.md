@@ -60,7 +60,7 @@ This project was built as part of the **30 Days DevOps Challenge** I'm undertaki
 ```
 
 ## 🚀 Setup & Installation
-### 4️⃣ Launch EC2 Instance and SSH Into It
+### 4️⃣ Launch an EC2 Instance and SSH Into It
 ```bash
 ssh -i "nba-stats-pipeline.pem" ubuntu@ec2-18-212-173-76.compute-1.amazonaws.com
 ```
