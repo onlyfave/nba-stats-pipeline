@@ -50,21 +50,40 @@ This project was built as part of the **30 Days DevOps Challenge** I'm undertaki
 ```plaintext
 └── nba-stats-pipeline
     ├── src
-      │  ├── __init__.py
-      │  ├── nba_stats.py
-      │  ├── lambdafunction.py
-
-    ├── requirements.txt       # Dependencies
-      │   ├── .env                # Environment variables
-      │   ├── Dockerfile          # Containerization setup (if applicable)
-    ├── README.md               # Project documentation
+    │  ├── __init__.py
+    │  ├── nba_stats.py
+    │  ├── lambdafunction.py
+    ├── requirements.txt      # Dependencies
+    │   ├── .env              # Environment variables
+    │   ├── Dockerfile        # Containerization setup (if applicable)
+    ├── README.md             # Project documentation
 ```
 
 ## 🚀 Setup & Installation
+### 4️⃣ Launch EC2 Instance and SSH Into It
+```bash
+ssh -i "nba-stats-pipeline.pem" ubuntu@ec2-18-212-173-76.compute-1.amazonaws.com
+```
+
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/onlyfave/nba-stats-pipeline.git
 cd nba-stats-pipeline
+```
+### 1️⃣ Install Python3
+Python3 is required to run the project.
+```bash
+sudo apt update
+sudo apt install python3
+```
+### 1️⃣ Install Pip
+On most systems, pip comes pre-installed with Python3. To verify, run:
+```bash
+pip3 --version
+```
+If you don't have pip installed, use the following command:
+```bash
+sudo apt install python3-pip
 ```
 
 ### 2️⃣ Install Dependencies
@@ -79,10 +98,12 @@ SPORTDATA_API_KEY=your_api_key
 DYNAMODB_TABLE_NAME=nba-player-stats
 AWS_ACCESS_KEY_ID=your_access_key
 AWS_SECRET_ACCESS_KEY=your_secret_key
-AWS_SESSION_TOKEN=your_session_token  # (If using temporary credentials)
 AWS_REGION=us-east-1
 ```
-
+### 4️⃣ CD Into the Folder Containing the Pipeline
+```bash
+cd src
+```
 ### 4️⃣ Run the Pipeline
 ```bash
 python3 nba_stats.py
@@ -120,7 +141,7 @@ docker run --env-file .env nba-stats-pipeline
 - Integrate with **Grafana** for real-time data visualization
 
 ## 📢 Connect With Me
-🚀 [LinkedIn](https://linkedin.com/in/your-profile) | 🐦 [Twitter/X](https://twitter.com/your-handle)
+🚀 [LinkedIn](https://www.linkedin.com/in/favour-onyeneke-2b2881297/) | 🐦 [Twitter/X](https://x.com/only_fave)
 
 ---
 💡 *If you find this project interesting, feel free to ⭐ the repo and contribute!*
