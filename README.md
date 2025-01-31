@@ -24,18 +24,22 @@ This project was built as part of the **30 Days DevOps Challenge** I'm undertaki
 ## 📸 Screenshots
 
 - **API Response Sample**
+  
   ![Screenshot 2025-01-31 114651](https://github.com/user-attachments/assets/f1d1fc22-63f2-4916-83b8-7a4b13bb4a23)
 - **DynamoDB Table Data**
+  
   ![Screenshot 2025-01-31 115147](https://github.com/user-attachments/assets/6815af26-efb0-44c7-95f8-58fc80e35993)
   ![Screenshot 2025-01-31 115315](https://github.com/user-attachments/assets/b6ffbabc-9f8a-4ac2-ade4-a15c98d2380d)
   ![Screenshot 2025-01-31 115438](https://github.com/user-attachments/assets/18bc467b-abd0-4215-8734-4c2a8015ea14)
   ![Screenshot 2025-01-31 115510](https://github.com/user-attachments/assets/f58bc56b-00a5-43fe-9c49-968279550a5e)
 
 - **CloudWatch Logs** (Structured logs for monitoring)
+  
   ![Screenshot 2025-01-31 121713](https://github.com/user-attachments/assets/612e75de-32d8-4448-832f-bda15a4cbbdf)
   ![Screenshot 2025-01-31 121916](https://github.com/user-attachments/assets/bb5b4607-602f-4263-8c96-abb9d10dee20)
 
 - **Terminal Output** (Successful execution of the pipeline)
+  
   ![Screenshot 2025-01-31 122345](https://github.com/user-attachments/assets/770427da-aaab-4e25-9349-20f374a5360e)
   ![Screenshot 2025-01-31 122416](https://github.com/user-attachments/assets/8ad633f4-966b-4ad8-872e-9c4b962fe5ec)
   ![Screenshot 2025-01-31 122458](https://github.com/user-attachments/assets/7fed27f1-aa5a-4d5e-81a1-5241d14a6ba6)
